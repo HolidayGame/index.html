@@ -20,7 +20,7 @@ HOLIDAY TREE DECOR
       width: 350px;
       height: 500px;
       margin: 20px auto;
-      background-image: url('https://i.imgur.com/5ZQZQ0F.png');
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5f/Christmas_tree_2.png');
       background-size: contain;
       background-repeat: no-repeat;
       position: relative;
