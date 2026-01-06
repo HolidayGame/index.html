@@ -3,12 +3,14 @@ HOLIDAY TREE DECOR
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Christmas Tree Decorating App</title>
+  <title>Holiday Tree Decor</title>
   <style>
     body {
       background: #e3f6ff;
       font-family: Arial, sans-serif;
       text-align: center;
+      margin: 0;
+      padding: 0;
     }
 
     h1 {
@@ -16,27 +18,27 @@ HOLIDAY TREE DECOR
       margin-top: 20px;
     }
 
-#tree-area {
-  width: 350px;
-  height: 500px;
-  margin: 20px auto;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5f/Christmas_tree_2.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  border: 3px solid #0a9396;
-  border-radius: 10px;
-}
+    #tree-area {
+      width: 350px;
+      height: 500px;
+      margin: 20px auto;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5f/Christmas_tree_2.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      border: 3px solid #0a9396;
+      border-radius: 10px;
+    }
 
+    #items {
+      margin-top: 20px;
+    }
 
     .item {
       width: 60px;
       cursor: grab;
       margin: 10px;
-    }
-
-    #items {
-      margin-top: 20px;
     }
 
     .decor {
@@ -64,8 +66,6 @@ HOLIDAY TREE DECOR
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Christmas_lights_icon.png" class="item" draggable="true">
 </div>
 
-
-
 <script>
   const treeArea = document.getElementById("tree-area");
 
@@ -92,3 +92,4 @@ HOLIDAY TREE DECOR
 
 </body>
 </html>
+
